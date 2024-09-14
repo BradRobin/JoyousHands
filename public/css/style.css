@@ -45,6 +45,7 @@ header {
 
 /* Title Styling */
 header h1 {
+    color: #000000;
     font-family: 'Lobster', cursive;
     font-size: 1.8em; /* Adjusted font size for better alignment */
     margin: 0;
@@ -59,7 +60,7 @@ header h1 {
 .dropdown-btn {
     background: none;
     border: none;
-    color: rgb(250, 0, 0);
+    color: rgb(220, 218, 218);
     font-size: 1.5em;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -175,8 +176,8 @@ header h1 {
 .hero-content h1 {
     font-size: 2.5em;
     font-family: 'Merriweather', serif;
-    color: #e3000b;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
     margin-bottom: 15px;
 }
 
@@ -738,7 +739,7 @@ hr {
 /* Call to Action Buttons */
 .cta-button {
     display: inline-block;
-    background-color: #e74c3c;
+    background-color: #e81c05;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
