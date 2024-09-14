@@ -513,3 +513,264 @@ footer, .dropdown-content a {
     margin-bottom: 10px;
 }
 
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #e63946;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #e63946;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Get Involved Section */
+.get-involved-section .involvement-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.get-involved-section .option {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.get-involved-section .option h3 {
+    font-size: 1.5em;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.get-involved-section .option p {
+    font-size: 1.1em;
+}
+
+.get-involved-section .option a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.get-involved-section .option a:hover {
+    background-color: #d62828;
+}
+
+/* Contact Us Specific Styles */
+.contact-us {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+
+/* Contact Us Specific Menu Icon */
+.contact-us .menu-icon {
+    color: #e63946; /* Set a visible color, adjust to your theme */
+}
+
+.contact-us h2 {
+    color: #e63946;
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-us p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Grid Layout for Team Members */
+.contact-us .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.contact-us .member {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-us .member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    max-width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-us .member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-us .member img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.contact-us .member h3 {
+    margin-top: 15px;
+    color: #e63946;
+    font-size: 1.4em;
+}
+
+.contact-us .member p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* About Us Styles */
+.about-us-container {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+section {
+    padding: 30px 0;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+/* Grid Styles */
+.values-grid, .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.value-item, .team-member {
+    text-align: center;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Call to Action Buttons */
+.cta-button {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .team-member img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cta-button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
+
